@@ -5,7 +5,7 @@
   right:0;
   bottom:0;
   overflow: auto;
-  background:fade(@navbar-inverse-link-color, 80%);
+  background:fade(black, 50%);
   color:white;
 
   h1 {
@@ -13,18 +13,17 @@
     text-transform: uppercase;
   }
 
-  &:after,
-  &:before {
+  &__flag {
     overflow:hidden;
-    content:"";
     position:fixed;
-    width:100%;
-    background: url("../assets/images/flag.svg") no-repeat;
-    background-size: 100% auto;
-    height:4px;
     display:block;
-    left:50%;
-    .translate(-50%, 0);
+    width:100%;
+    height:auto;
+    left:0;
+    top:0;
+    opacity: .4;
+    //-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    mask:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
   }
 
   &:before {
