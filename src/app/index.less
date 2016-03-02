@@ -5,16 +5,18 @@
 // bower:less
 // endbower
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
-@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,900");
+@import url("//fonts.googleapis.com/css?family=Montserrat:400,700|Old+Standard+TT:400,700");
 
 /**
  *  If you want to override some bootstrap variables, you have to change values here.
  *  The list of variables are listed here bower_components/bootstrap/less/variables.less
  */
-@navbar-inverse-link-color: #5AADBB;
+@navbar-inverse-link-color: #2B325F;
 @icon-font-path: '../../bower_components/bootstrap/fonts/';
-@brand-primary: #3695FF;
-@font-family-base: 'Source Sans Pro';
+@brand-primary: #B20107;
+@link-color: mix(white, @brand-primary);
+@font-family-base: 'Montserrat', sans-serif;
+@headings-font-family: 'Old Standard TT', serif;
 @btn-font-weight: bold;
 @border-radius-base: 0;
 @border-radius-small: @border-radius-base;
@@ -39,7 +41,7 @@
 		content:"";
 		top:100%;
 		left:0;
-		position: absolute;		
+		position: absolute;
 		height:3px;
 		width:100%;
 		background: url("../assets/images/flag.svg") no-repeat;

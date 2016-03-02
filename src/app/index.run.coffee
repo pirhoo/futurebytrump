@@ -1,4 +1,4 @@
-angular.module 'morano2017'
+angular.module 'futurebytrump'
   .run  ($rootScope, $location, $window)->
     $rootScope.$on "$stateChangeSuccess", ->
       # Send 'pageview' to Google Analytics

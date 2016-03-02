@@ -1,11 +1,11 @@
-angular.module 'morano2017'
+angular.module 'futurebytrump'
   .controller 'MainController', ($state, facts)->
     # Background image
-    @bg = 'nadine-' + Math.floor(Math.random() * 5)
+    @bg = 'trump-' + Math.floor(Math.random() * 4)
     # Generate a new sentence
     @generate = ->
       # Regenerates the background image
-      @bg = 'nadine-' + Math.floor(Math.random() * 5)
+      @bg = 'trump-' + Math.floor(Math.random() * 4)
       # Initial parameters' values
       params = p1: null, p2: null, p3: null
       # Avoid having the original sentence
@@ -14,7 +14,7 @@ angular.module 'morano2017'
         for p in [1..3]
           # Build parameter key
           key = 'p' + p
-          # Reset the value of the params 
+          # Reset the value of the params
           # in case we are creating a another sentence
           params[key] = null
           # The value of this parameter must not be null

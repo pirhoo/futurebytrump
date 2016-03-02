@@ -20,7 +20,7 @@ gulp.task('partials', function () {
       quotes: true
     }))
     .pipe($.angularTemplatecache('templateCacheHtml.js', {
-      module: 'morano2017',
+      module: 'futurebytrump',
       root: 'app'
     }))
     .pipe(gulp.dest(conf.paths.tmp + '/partials/'));
@@ -115,6 +115,6 @@ gulp.task('build', ['html', 'fonts', 'csv', 'other']);
 
 gulp.task('deploy', ['build'], function() {
   return gulp.src(path.join(conf.paths.dist, '/**/*')).pipe($.ghPages({
-    remoteUrl: "git@github.com:pirhoo/morano-2017.git"
+    remoteUrl: "git@github.com:pirhoo/futurebytrump.git"
   }));
 });

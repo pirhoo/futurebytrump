@@ -1,4 +1,4 @@
-angular.module 'morano2017', [
+angular.module 'futurebytrump', [
   'ngAnimate'
   'ngTouch'
   'ngSanitize'

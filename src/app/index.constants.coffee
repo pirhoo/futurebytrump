@@ -1,2 +1,2 @@
-angular.module('morano2017')
+angular.module('futurebytrump')
   .constant 'moment', moment

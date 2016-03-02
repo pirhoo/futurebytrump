@@ -1,4 +1,4 @@
-angular.module 'morano2017'
+angular.module 'futurebytrump'
   .config ($stateProvider, $urlRouterProvider)->
     'ngInject'
     $urlRouterProvider.otherwise '/'
