@@ -1,12 +1,12 @@
 <div class="main__quote text-center">
   <p class="main__quote__sentence">
-    ❝&nbsp;{{ quote.nonBreaking(quote.sentence) }}&nbsp;❞        
+    ❝&nbsp;{{ quote.nonBreaking(quote.sentence) }}&nbsp;❞
   </p>
   <p class="main__quote__meta">
     {{ quote.tomorrow | date:'dd/MM/yyyy' }}
-     — 
+     —
     {{ quote.media }}
-     — 
+     —
     <span class="">
       <button socialshare
          socialshare-text="EXCLU : la phrase culte que Nadine Morano dira demain"
@@ -26,13 +26,13 @@
          socialshare-redirect-uri="http://www.futurebytrump.com/close.html"
          class="btn btn-outline btn-sm">
         <i class="fa fa-fw fa-facebook"></i>
-        <span class="sr-only">Facebook</span>        
+        <span class="sr-only">Facebook</span>
       </button>
     </span>
   </p>
   <p class="main__quote__actions">
     <button class="btn btn-primary btn-lg" ng-click="main.generate()">
-      Générez une autre phrase
+      I want to be inspired again!
     </button>
   </p>
 </div>
