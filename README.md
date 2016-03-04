@@ -1,6 +1,8 @@
-# Nadine Morano 2017
+# Future by Trump
 
-<a href="http://www.futurebytrump.com"><img src="http://i.imgur.com/fYWdo8r.png" width="100%" alt="Wut?" /></a>
+Feeling a bit lost about your future President's view on things? Here's a selection of his most inspirational quotes.
+
+<a href="http://www.futurebytrump.com"><img src="http://i.imgur.com/M0ZQnKT.png" width="100%" alt="Wut?" /></a>
 
 ## Installation
 
