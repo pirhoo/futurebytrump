@@ -100,7 +100,8 @@ gulp.task('csv', function(){
       return {
         p1: _.map(data, function(row) { return row.quote_part_1; }),
         p2: _.map(data, function(row) { return row.quote_part_2; }),
-        p3: _.map(data, function(row) { return row.quote_part_3; })
+        p3: _.map(data, function(row) { return row.quote_part_3; }),
+        p4: _.map(data, function(row) { return row.quote_part_4; })
       };
     }))
     .pipe(gulp.dest('.tmp/serve/assets/'))

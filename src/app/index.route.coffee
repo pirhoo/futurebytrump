@@ -14,7 +14,7 @@ angular.module 'futurebytrump'
             # Load facts' parts
             $http.get('assets/facts.json').then (r)-> r.data
       .state 'main.quote',
-        url: ':p1::p2::p3'
+        url: ':p1::p2::p3::p4'
         templateUrl: 'app/main/quote/quote.html'
         controller: 'MainQuoteController'
         controllerAs: 'quote'
@@ -23,4 +23,4 @@ angular.module 'futurebytrump'
             # State params shortcut
             p = $stateParams
             # Create the quote from state params
-            [ facts.p1[p.p1], facts.p2[p.p2], facts.p3[p.p3] ].join ''
+            [ facts.p1[p.p1], facts.p2[p.p2], facts.p3[p.p3], facts.p4[p.p4] ].join ''

@@ -7,11 +7,11 @@ angular.module 'futurebytrump'
       # Regenerates the background image
       @bg = 'trump-' + Math.floor(Math.random() * 4)
       # Initial parameters' values
-      params = p1: null, p2: null, p3: null
+      params = p1: null, p2: null, p3: null, p4: null
       # Avoid having the original sentence
-      while params.p1 is params.p2 and params.p2 is params.p3
+      while params.p1 is params.p2 and params.p2 is params.p3 and params.p3 is params.p4
         # Until every parameters is filled
-        for p in [1..3]
+        for p in [1..4]
           # Build parameter key
           key = 'p' + p
           # Reset the value of the params
